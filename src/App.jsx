@@ -2,6 +2,7 @@ import "./App.css";
 import Chart from "chart.js/auto";
 import { Bar } from "react-chartjs-2";
 import Data from "./data.json";
+import Logo from "./assets/Logo";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <p className="text-2xl font-bold lg:text-3xl">$921.48</p>
           </div>
           <div className="balance-izquierda flex justify-center items-center">
-            <img src="/src/assets/logo.svg" className="h-9" alt="Logo" />
+            <Logo />
           </div>
         </article>
         <article id="chart" className="chart h-3/6 rounded-xl mt-5">
