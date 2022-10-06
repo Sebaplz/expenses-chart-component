@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: hsl(27, 66%, 92%);
+}
+
+.my-balance {
+  background: hsl(10, 79%, 65%);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.chart {
+  background: white;
+}
+canvas:hover {
+  cursor: pointer;
+}
+
+.total {
+  color: hsl(28, 10%, 53%);
+}
